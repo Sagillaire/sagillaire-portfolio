@@ -16,10 +16,10 @@ export default function portfolio() {
                     <div className="uppercase font-semibold text-sm text-WhiteGray">- Portfolio</div>
                     <div className="font-semibold text-3xl mt-8 text-White uppercase">My masterpiece collection</div>
                     <p className="text-WhiteGray text-sm mt-8 leading-7">
-                    I am a passionate web developer specializing in creating custom applications for a variety of business needs, from e-commerce platforms 
-                    to data visualization dashboards. I use cutting-edge technologies and agile methodologies to deliver exceptional user experiences and measurable results. 
-                    My approach focuses on close collaboration, transparency and attention to the latest trends, ensuring solutions that not only meet but exceed expectations, 
-                    driving business success for my clients.
+                        I am a passionate web developer specializing in creating custom applications for a variety of business needs, from e-commerce platforms
+                        to data visualization dashboards. I use cutting-edge technologies and agile methodologies to deliver exceptional user experiences and measurable results.
+                        My approach focuses on close collaboration, transparency and attention to the latest trends, ensuring solutions that not only meet but exceed expectations,
+                        driving business success for my clients.
                     </p>
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 p-8">
                         {projects.map(project => (
@@ -27,10 +27,10 @@ export default function portfolio() {
                                 <div className="w-full h-3/4 relative group">
                                     <img src={project.img} alt={project.name} className="w-full h-full object-cover" />
                                     <div className="absolute w-full h-full bg-Orange top-0 left-0 z-10 flex items-center justify-center gap-4 scale-0 group-hover:scale-100 transition-all duration-300">
-                                        <Link href="">
+                                        <Link href={project.github_url}>
                                             <AiFillGithub className="text-3xl hover:scale-110 transition-all duration-300" />
                                         </Link>
-                                        <Link href="">
+                                        <Link href={project.project_url}>
                                             <AiFillEye className="text-3xl hover:scale-110 transition-all duration-300" />
                                         </Link>
                                     </div>

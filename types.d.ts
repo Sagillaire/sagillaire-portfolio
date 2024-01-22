@@ -26,6 +26,8 @@ type ProjectProps = {
     img: string;
     name: string;
     tools: string[];
+    github_url: string;
+    project_url: string;
 };
 
 type CountUpProps = {

@@ -48,26 +48,34 @@ const countUpItems: countUpItemsProps[] = [
 const projects: ProjectProps[] = [
     {
         id: 1,
-        img: "/green.png",
-        name: "Comming soon...",
-        tools: [],
+        img: "/project-pokedex.png",
+        name: "Pokemon Pokedex",
+        project_url: 'https://pokedex-seven-sandy.vercel.app/',
+        github_url: 'https://github.com/Sagillaire/app_poke',
+        tools: ['NextJs', 'Styled Components', 'TypeScript'],
     },
     {
         id: 2,
         img: "/orange.png",
         name: "Comming soon...",
+        project_url: '',
+        github_url: '',
         tools: [],
     },
     {
         id: 3,
         img: "/purple.png",
         name: "Comming soon...",
+        project_url: '',
+        github_url: '',
         tools: [],
     },
     {
         id: 4,
         img: "/blue.png",
         name: "Comming soon...",
+        project_url: '',
+        github_url: '',
         tools: [],
     },
 ];
