@@ -62,22 +62,6 @@ const projects: ProjectProps[] = [
         github_url: 'https://github.com/Sagillaire/x.com_clone_ui',
         tools: ['NextJs', 'Tailwind', 'TypeScript'],
     },
-    {
-        id: 3,
-        img: "/purple.png",
-        name: "Comming soon...",
-        project_url: '',
-        github_url: '',
-        tools: [],
-    },
-    {
-        id: 4,
-        img: "/blue.png",
-        name: "Comming soon...",
-        project_url: '',
-        github_url: '',
-        tools: [],
-    },
 ];
 
 const skills = [
