@@ -56,11 +56,11 @@ const projects: ProjectProps[] = [
     },
     {
         id: 2,
-        img: "/orange.png",
-        name: "Comming soon...",
-        project_url: '',
-        github_url: '',
-        tools: [],
+        img: "/x.com_clone.png",
+        name: "X / Twitter UI: In progress..",
+        project_url: 'https://x-com-clone-ui.vercel.app/',
+        github_url: 'https://github.com/Sagillaire/x.com_clone_ui',
+        tools: ['NextJs', 'Tailwind', 'TypeScript'],
     },
     {
         id: 3,
