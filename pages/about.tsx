@@ -15,7 +15,7 @@ export default function about() {
                     <Image src="/about.JPEG" width={300} height={300} alt="About Image" className="grayscale rounded-md border-2 border-Orange" />
                     <div className="lg:w-1/2 lg:ml-8 max-w-md md:max-w-xl">
                         <div className="uppercase font-semibold text-sm text-WhiteGray">- Introduction</div>
-                        <div className="font-semibold text-3xl mt-8 text-White uppercase">Systems Engineer & FrontEnd Developer, located in Colombia</div>
+                        <div className="font-semibold text-3xl mt-8 text-White uppercase">Systems Engineer, Mobile & FrontEnd Developer, located in Barcelona</div>
                         <p className="text-WhiteGray text-sm mt-8 leading-7">
                             I am a passionate frontend developer with a creative eye for design and a strong focus on
                             delivering elegant and intuitive interfaces. Exited to colaborate on new projects!
